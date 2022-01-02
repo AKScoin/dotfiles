@@ -1,0 +1,12 @@
+[user]
+	name = Andy Cordos
+	email = 83423612+AKScoin@users.noreply.github.com
+[color]
+	ui = true
+[core]
+	editor = emacs
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
