@@ -8,5 +8,6 @@ echo "\n<<< Starting Home Brew Setup >>>\n"
 brew install httpie
 brew install bat
 
-brew install --cask google-chrome
-brew install --cask visual-studio-code
+brew install --no-quarantine --cask google-chrome
+brew install --no-quarantine --cask visual-studio-code
+brew reinstall --no-quarantine --cask alfred 
