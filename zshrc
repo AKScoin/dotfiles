@@ -1,7 +1,10 @@
 echo 'Hello from zshrc-edit'
+export PATH=/opt/homebrew/bin:$PATH
 
 # Set Variables
-
+# bat command Colorizing pager for man
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+man 2 select
 
 # Change Aliases
 alias ls='ls -lAFh'
@@ -26,5 +29,6 @@ functions mkcd() {
 
 
 # ...and Other Surprises
+# VS CODE Alternative manual instructions
 
  
