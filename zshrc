@@ -4,7 +4,7 @@ export PATH=/opt/homebrew/bin:$PATH
 # Set Variables
 # bat command Colorizing pager for man
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-man 2 select
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change Aliases
 alias ls='ls -lAFh'
